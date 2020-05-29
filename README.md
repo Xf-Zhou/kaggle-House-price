@@ -29,4 +29,4 @@
 2. 学习率先从一个比较大的数开始（如10），之后不断二分减小，找到合适的值。
 3. weight_decay可选一个较小的值开始（如0.001），不断二分倍增，知道找到合适的值
 kaggle提交结果：
-![Image text](https://raw.github.com/yourName/repositpry/master/yourprojectName/img-folder/test.jpg)
+![Image text](images/submission_result.png)
