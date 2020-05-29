@@ -1,6 +1,6 @@
 # kaggle-House-price
 
-**学习Dive into deep learning第三章最后一节，实战房价预测比赛。该比赛的网页地址是 https://www.kaggle.com/c/house-prices-advanced-regression-techniques 。
+* 学习Dive into deep learning第三章最后一节，实战房价预测比赛。该比赛的网页地址是 https://www.kaggle.com/c/house-prices-advanced-regression-techniques 。*
 
 本项比赛中，数据预处理采用了以下策略：
 1. 对连续数值的特征做均值方差标准化（standardization），缺失值替换为该特征的均值。
@@ -10,6 +10,7 @@
 
 2020.05.29第二次submission：
 (```)
+  
   def get_net2(num_inputs, num_hidden1):
 
     net = nn.Sequential(
@@ -23,4 +24,5 @@
     return net
     
   k,num_hidden1,num_epochs, lr, weight_decay, batch_size = 4,128,50, 0.03, 80, 64
+
 (```)
